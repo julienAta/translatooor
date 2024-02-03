@@ -1,6 +1,6 @@
 backend: 
 - pip install libretranslate
-- libretranslate [args]
+- ./run.sh --frontend-timeout 1000
 
 frontend:
 - pnpm install
