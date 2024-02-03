@@ -4,4 +4,6 @@ backend:
 
 frontend:
 - pnpm install
+- copy .env.example
+- rename .env and add url
 - pnpm dev
