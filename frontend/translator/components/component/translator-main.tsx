@@ -9,7 +9,7 @@ export function TranslatorMain() {
       <Tabs defaultValue="text" className="w-full">
         <TabsList className="w-full flex justify-center">
           <TabsTrigger value="text">Text</TabsTrigger>
-          <TabsTrigger value="file">file</TabsTrigger>
+          <TabsTrigger value="file">File</TabsTrigger>
         </TabsList>
         <TabsContent value="text">
           <TextInput />

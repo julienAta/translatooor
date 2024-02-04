@@ -76,6 +76,10 @@ export function FileUpload() {
         <Label className="text-lg font-medium" htmlFor="file-upload">
           Upload File
         </Label>
+        <div className="p-2">
+          Formats de fichiers pris en charge : .txt, .odt, .odp, .docx, .pptx,
+          .epub, .html
+        </div>
         <Input
           className="w-full"
           id="file-upload"
