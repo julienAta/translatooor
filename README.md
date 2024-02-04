@@ -4,7 +4,7 @@ backend:
 - cd backend
 - pip install libretranslate
 - libretranslate --frontend-timeout 1000
--  Or with docker: ./run.sh --frontend-timeout 1000 (first load is long)
+-  Or with docker: ./run.sh --frontend-timeout 1000
 
 frontend:
 - cd frontend
