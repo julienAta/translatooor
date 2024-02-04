@@ -1,3 +1,5 @@
+Translate app using LibreTranslate / based on argos translate
+
 backend: 
 - pip install libretranslate
 - libretranslate --frontend-timeout 1000
