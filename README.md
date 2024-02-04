@@ -1,9 +1,12 @@
 backend: 
 - pip install libretranslate
+- libretranslate --frontend-timeout 1000
+ OR
+  with docker
 - ./run.sh --frontend-timeout 1000 (first load is long)
 
 frontend:
 - pnpm install
 - copy .env.example
-- rename .env and add url
+- rename .env and add url (http://localhost:5000)
 - pnpm dev
