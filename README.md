@@ -10,5 +10,5 @@ frontend:
 - cd frontend
 - pnpm install
 - copy .env.example
-- rename .env and add url (http://localhost:5000)
+- rename .env
 - pnpm dev
